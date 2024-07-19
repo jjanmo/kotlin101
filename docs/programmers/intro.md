@@ -7,7 +7,6 @@
 
 ## Problems
 
-| Index | Date | Problem | Solution | 
-|:-----:|:----:|:-------:|:--------:|
-|       |      |         |          |  
-
+| Index |   Date   |                                      Problem                                      |                   Solution                   | Description |
+|:-----:|:--------:|:---------------------------------------------------------------------------------:|:--------------------------------------------:|:-----------:|
+|  01   | 24.07.20 | [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950) | [✔️](../../src/main/kotlin/programmers/1.kt) |      -      |
