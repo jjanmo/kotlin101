@@ -24,7 +24,7 @@ class Problem1 {
 }
 
 
-fun main(args: Array<String>) {
+fun main() {
     print("[문자열 숫자] 입력 : ")
     val input = readln().split(' ')
 
