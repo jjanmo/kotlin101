@@ -7,6 +7,7 @@
 
 ## Problems
 
-| Index |   Date   |                                      Problem                                      |                   Solution                   | Description |
-|:-----:|:--------:|:---------------------------------------------------------------------------------:|:--------------------------------------------:|:-----------:|
-|  01   | 24.07.20 | [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950) | [✔️](../../src/main/kotlin/programmers/1.kt) |      -      |
+| Index |   Date   |                                      Problem                                      |                   Solution                   |  Description  |
+|:-----:|:--------:|:---------------------------------------------------------------------------------:|:--------------------------------------------:|:-------------:|
+|  01   | 24.07.20 | [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950) | [✔️](../../src/main/kotlin/programmers/1.kt) |       -       |
+|  02   | 24.07.20 |   [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943)    | [✔️](../../src/main/kotlin/programmers/2.kt) | [🗒️](./2.md) |
