@@ -1,20 +1,26 @@
 package programmers
 
-
-class Solution {
+class Problem1 {
     fun sol1(list: List<String>) {
-        val s1 = list[0]
-        val a = list[1].toInt()
+        val string = list[0]
+        val number = list[1].toInt()
 
         var result = ""
         var count = 0
-        while (count < a) {
-            result += s1
+        while (count < number) {
+            result += string
             count++
         }
         println(result)
     }
 
+    fun sol2(list: List<String>) {
+        val string = list[0]
+        val number = list[1].toInt()
+
+        val result = string.repeat(number)
+        println(result)
+    }
 }
 
 
@@ -22,6 +28,7 @@ fun main(args: Array<String>) {
     print("[문자열 숫자] 입력 : ")
     val input = readln().split(' ')
 
-    val solution = Solution()
-    solution.sol1(input)
+    val problem = Problem1()
+    problem.sol1(input)
+    problem.sol2(input)
 }
