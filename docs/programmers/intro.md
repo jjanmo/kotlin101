@@ -7,8 +7,10 @@
 
 ## Problems
 
-| Index |   Date   |                                      Problem                                      |                   Solution                   |  Description  |
-|:-----:|:--------:|:---------------------------------------------------------------------------------:|:--------------------------------------------:|:-------------:|
-|  01   | 24.07.20 | [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950) | [✔️](../../src/main/kotlin/programmers/1.kt) |       -       |
-|  02   | 24.07.20 |   [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943)    | [✔️](../../src/main/kotlin/programmers/2.kt) | [🗒️](./2.md) |
-|  03   | 24.07.23 |    [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)     | [✔️](../../src/main/kotlin/programmers/3.kt) | [🗒️](./3.md) |
+| Index |   Date   |                                               Problem                                               |                   Solution                   | Description  |
+| :---: | :------: | :-------------------------------------------------------------------------------------------------: | :------------------------------------------: | :----------: |
+|  01   | 24.07.20 |    [문자열 반복해서 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/181950)     | [✔️](../../src/main/kotlin/programmers/1.kt) |      -       |
+|  02   | 24.07.20 |         [문자열 겹쳐쓰기](https://school.programmers.co.kr/learn/courses/30/lessons/181943)         | [✔️](../../src/main/kotlin/programmers/2.kt) | [🗒️](./2.md) |
+|  03   | 24.07.23 |           [문자열 섞기](https://school.programmers.co.kr/learn/courses/30/lessons/181942)           | [✔️](../../src/main/kotlin/programmers/3.kt) | [🗒️](./3.md) |
+|  04   | 24.08.03 | [문자 리스트를 문자열로 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/181941) |                                              |              |
+|  05   | 24.08.03 |          [문자열 곱하기](https://school.programmers.co.kr/learn/courses/30/lessons/181940)          |                                              |              |
