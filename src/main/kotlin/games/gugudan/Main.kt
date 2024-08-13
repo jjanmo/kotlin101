@@ -22,6 +22,7 @@ fun main() {
             return
         } else {
             println("틀렸습니다.")
+            println("정답은 ${result}입니다.")
         }
     }
 }
