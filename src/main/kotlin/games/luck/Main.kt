@@ -29,5 +29,5 @@ class MyDate {
 fun main() {
     val date = MyDate()
     val random = Random.nextInt(0, 100)
-    println(date.getToday())
+    println("${date.getToday()}의 금전운<100>: ${random}%")
 }
