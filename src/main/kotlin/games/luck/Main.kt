@@ -1,6 +1,5 @@
 package games.luck
 
-import java.awt.event.KeyEvent
 import java.time.DayOfWeek
 import java.time.LocalDate
 import kotlin.random.Random
@@ -25,6 +24,18 @@ class MyDate {
     }
 }
 
+fun askToRetry(): Boolean {
+    while (true) {
+        println("다시 하시겠습니까?(y/n)")
+        val value = readln().trim()
+        when (value) {
+            "", "y", "Y" -> return true
+            "n", "N" -> return false
+            else -> println("y/n 으로 입력해주세요.")
+        }
+    }
+}
+
 
 fun main() {
     val date = MyDate()
@@ -33,12 +44,9 @@ fun main() {
         val random = Random.nextInt(0, 100)
         println("${date.getToday()}의 금전운<100>: ${random}%")
 
-        while (true) {
-            println("다시 하시겠습니까?(y/n)")
-            val value = readln()
-            if (value == "y" || value.isEmpty()) break
-            else if (value == "n") return
-            else println("y/n 으로 입력해주세요.")
+        if (!askToRetry()) {
+            println("게임을 종료합니다.")
+            return
         }
     }
 }
