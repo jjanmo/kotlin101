@@ -1,5 +1,6 @@
 package games.luck
 
+import java.awt.event.KeyEvent
 import java.time.DayOfWeek
 import java.time.LocalDate
 import kotlin.random.Random
@@ -22,12 +23,22 @@ class MyDate {
     fun getToday(): String {
         return "${date.year}년 ${date.monthValue}월 ${date.dayOfMonth}일 ${dayOfWeekString(date.dayOfWeek)}요일"
     }
-
 }
 
 
 fun main() {
     val date = MyDate()
-    val random = Random.nextInt(0, 100)
-    println("${date.getToday()}의 금전운<100>: ${random}%")
+
+    while (true) {
+        val random = Random.nextInt(0, 100)
+        println("${date.getToday()}의 금전운<100>: ${random}%")
+
+        while (true) {
+            println("다시 하시겠습니까?(y/n)")
+            val value = readln()
+            if (value == "y" || value.isEmpty()) break
+            else if (value == "n") return
+            else println("y/n 으로 입력해주세요.")
+        }
+    }
 }
