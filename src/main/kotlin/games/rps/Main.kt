@@ -25,7 +25,7 @@ fun checkInput(human: String, computer: String): String = when {
 fun main() {
     while (true) {
         val allowableInput = listOf("가위", "바위", "보")
-        var human: String;
+        var human: String
 
         while (true) {
             println("가위 바위 보 중 하나를 입력하세요.")
